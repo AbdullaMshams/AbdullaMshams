@@ -225,10 +225,7 @@ Designed a multi-page landing site (About, Speakers, Agenda, Tickets) for a fict
 
 ### 📊 GitHub Stats
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AbdullaMshams&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
 <img height="165" src="https://streak-stats.demolab.com?user=AbdullaMshams&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F2B400&currStreakLabel=58A6FF" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullaMshams&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
 
 </div>
 
