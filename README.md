@@ -1,47 +1,121 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1F6FEB&height=150&section=header&animation=fadeIn" width="100%"/>
+
 <a href="https://github.com/AbdullaMshams">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1A1A1A&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Abdulla+%F0%9F%91%8B;UX%2FUI+Designer+%26+Full-Stack+Developer;Figma+%C2%B7+Go+%C2%B7+React+%C2%B7+ASP.NET+Core" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Abdulla+%F0%9F%91%8B;Full-Stack+Developer+%26+UX%2FUI+Designer;Figma+%C2%B7+Go+%C2%B7+React+%C2%B7+ASP.NET+Core;Building+real-time%2C+AI-integrated+products" alt="Typing SVG" />
 </a>
+
+<sub>Full-stack developer building web apps, real-time systems, and RESTful APIs with Go, JavaScript, C# and React — with an eye for interface design.</sub>
 
 </div>
 
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/AbdullaMshams/AbdullaMshams/output/github-contribution-grid-snake.svg" width="100%">
-<sub>Animated once the snake workflow below is set up — see setup note at the bottom.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdullaMshams/AbdullaMshams/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbdullaMshams/AbdullaMshams/output/github-contribution-grid-snake.svg">
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/AbdullaMshams/AbdullaMshams/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
 </div>
 
 <br>
 
-```
-
-y333255Fpp6mqqqSggggggggggSSqqmm6ppF55233yyf   abdulla@github
-3255Fp6mmqSgghhVVVVddddddVVVVhhgSqmmppF5523y   ─────────────────────────────────────────────
-FFp6mqqgghVd44EEEEggXXXXXXXgE44dVhhgqm6pFF52   . OS: ................................. macOS
-p6mqSghVd4EEXGGZZbbZPEVgqmqVXGGPPEdVhgSqmppF   . Since: ............... GitHub member since 2021
-mqSghV44EXXG42JnLze1!}sl%)><v*!tuhX44VhgSqm6   . Host: ................ Bahrain Polytechnic University
-SghVdEgXPGZbLl%|;''':'':=|\\+_   vgPgE4VhgSq   . Role: ................ Full-Stack Developer & UX/UI Designer
-hVd4gXGZbO@KK@GVmwoofmyyz[tL64mT[[qbZPgEdVhg   . IDE: .................. Visual Studio Code
-VdEXPGbYYUDHboT4k&&YUUmne1Ix<}FXUkgggPGXE4dh
-4EXGZbYOO@KGfr#TjzpbbS#1}*lvl>+!gAZqnqbGPgEd   . Languages.Programming: ... Go, JavaScript, C#, SQL, Java
-EXGZbYOAA@kA5jFTjI3XS}v[oclr{?=;IPAG2FYbGPgE   . Languages.Design: ........ Figma, Adobe XD, Photoshop, Illustrator
-gPZbYOAA&@D&C6GPPXEX2xve33Cj?*)//jGYV5kYbGXg   . Languages.Real: .......... Arabic, English
-XGbYkOA&&UHGgdOOYZgGg})}6h2ors%\\xt2Eh2YkYZGX
-PGbYOAA&&UK@8gGYV6pF3ecv1hC!s*rr}7wpV5bOYbGP   ─ Contact ──────────────────────────────────
-PZYkOA&&&U@N@XdPPgVSFCe?n21?}**}1TF5dgYOYbZP   . Email: ................ abdullamohd.ahmed@gmail.com
-PZYkOA&&&Kb8HGEAGGbYXh3na?Isr??!zwmpqGAOYbZP   . LinkedIn: .............. linkedin.com/in/abdulla-mohammed-shams
-PZbkOAA&KWPPUZY$YggXdmCe[1[?[z]?oJf5X&AOYbGP   . GitHub: ................ github.com/AbdullaMshams
-XGbYkOA$N8qdPZA&H8YZXq5fFqm5fCTttzoh8AOkYbGX
-gPGbYOUWWXgP&DWNR0RMWDBHKAggmhPFpPpEbOOYbGPg   ─ GitHub Stats ─────────────────────────────
-EXZOUHWN@G&WNMNNNRRRWWMB@8OG&D8mE$@ZgqdPGGXE   . Repos: ................. 30 (0 forked)
-gAU$HWWWObWRMNNNNWNNNNW@KUB$OBWGZU&&OEqmqmqh   . Stars: ................. 1
-OU&$DWW@bUNRNWNNNMRWDRDDDUKRH&WBAYbO@UAX4g2J   . Followers: .............. 0
-OA8HHDKYKNNNNNWWWMRMNMBBBHKBMH$WOVZ$H&YYGgqJ   . Contributions (past yr): . 161
-kkU@KKk8NWWNNNWWNRRRMWBWWWH@DNDK&gP$K8OgEEmw   . Top Languages: .......... Go, JavaScript, CSS
+<table>
+<tr>
+<td valign="top" width="46%">
 
 ```
+                                                  @
+                         ++     @##%%#%%%##@@%%%%%%%%
+                        @*:+#*#%@%####****#%######%%%#++*##@@#++
+                  %%    @%#**++#*#%#*#****+:+*####*#%%#**+++**#+**#  @%%%
+               %#**@@%@@%%%%#***#+:**###***++:++*+++**#%%%++..:*#++%% %*+%
+            @  %****%@#*%%%%%%*+***+:+:::::::#***:....:+#%#+*: ::*:+#%%*+@
+            @%@%+%%**###***#####+*##%%*++:::::**#%#*..++:#%%++*# +*+##%*+*@@ #%
+           @@@%%##%%#**#*+****++*+.:++%%%%%%###*+#@%**#%+*#%:+%#:+#*%#@*++%%*+#
+          %%*#@%@*##%%%%%#****#%%#+++++++#%%%%%%#+*%%**%*#*###%*%#**%%#*+#%#+*%   #
+       ###%%**#%###+*+####**%%######@%##++*#%@%###+%@#*%##+#%%#*%##%#*+*#%*++%%%###%
+       %%#%%%**%#%%%##*+*+**####*#####%%%*+*%%%%##+######*#%%%%%####**#%#***#+*##%
+         @%%%%%%###%%%%%%%%%#%%%%######%%%#*%#%%%%%%%##%%%%%####*####%#**#*++#**##%
+       @%##%%%%%%%%%%%%%%%%%####******+*##++#%%%%##+#*+#***#++*:+#**###**##%@@%##**%
+        %%%#%##%%%%%%%###*****+++:........ .:*##*+...       .:. ::::+*####*%%%*%%%#%@
+          %%%%%%%%%#%%%#++++:::::...         .                 ... ::+*%%##**###%%@
+          @@@%%###%%%#%*+++::.......                           ....:::++####**%##%@
+            @%####%#*%%*+:::..............                     . .::::+:#%###%#%%
+            %%%%#%%##%#+:::::.... .                          ... .:::::+#%%**#%%%
+             @%#%#%%%#+::::...                                     ..:..+%%###%%
+             %%%%##%%#+:.+***%####*****+::.        . :++++++###%%%%*: ..+#%+*%%%
+              @%%###%*.+*#*****####%%%%%%%#*.    .:#%%%@@%%%##******#*:..%%##%@
+               %%%#%%+:*+::::+***###%#***%*+:....:+**#***#####***::::+** %%%%%@
+               @@%%%%+:::+:+#%+ #@#+@#.+++*+:.   .:+++#+.%@#*@*.*%*++::..%#%%@
+             %#::.#%%+:+::+**#+:*###*+:.::+*:    .+#::+++*####+:+*+::::..%%*...*%
+            @#++:  +%+:::....::+::::..:  ..*+    .:::.....+:.::::.   ..:.%: :+++%
+             #.:*#:+@*:::....           . .#:    .:: .               ..:.@+**+..@
+            @#::**#%#%#+:.. .           .:+..    ...:.             .. ::#*##+..:%
+            %%*.:+%* %#++... .           *+..     ..*              .  :+% *#: :+%
+              @*..+++%#**:::.            .+##:.:.+#*+             . .+**%+#: .*@
+               @#:.::+#**::::..         :++*%%#%%%#*+:.             +:##..  .#
+                @#+::+%#*#*:::     +:*####%%%%#+#%%%#%%##++.    . ::+*##...+%
+                  @@@@@%###:+*.   ##%%%#*+++:::::++++*##%@%%:  .*.*+:##%@@@
+                      %@#%#**++:  #*#+.:.:++::::::::+:::.+#*. .+++++###%
+                       %%#####*++.         .:+:::::.         :*.***###@
+                        @%%%%%#++* :.  .. .:#%%%##**.     .:+**###%%%%
+                           %%%%#*+*#*:.     .:#*+:      :.+#**#%%%%
+                   @@@      @@##%#%*#*+:.    ...+     .:****#%%*#@@      %@@%%
+                 @***##%%@@@%%*:*#%%%#*##+..:****+*:.:*#%##%#*+:+%%%%@@%##**##%###
+              %%##*+########%%*:+:+*#%%%%#**##%%#*##**%%%##+:.:+*@%@@#**++:*#++++*#%%%
+         @@#####*+*+#%#***%%@@*:+:.++**##%%##%%%%%%#%%#**++:..::+@@%*+*+*++: .+*#*+**+###@@
+     @%####**+:%+ . #%#***%%##*++:::.:+++**#########**++::.  .+##%%*.+:#%:  **+ ..::::**+**#%
+  @@%#****+++. #:   ###*#*@#**##*+:::::+*++++++++++**+:..  ::+%##%# .+**  .#+         ...::+*%#@
+ %%#**++::.    %.:+:###+#*%%##*+#**++ .::+++++++++: .  ::+**##*#%#:+++#+ +##           .+++++#*%%%@
+ @***#:...   . %+++ *%#+#%+*%%##******: .::++*+.:.. +#######***%@* *+%+. .:%*++.::... *+*#*##%***#@
+```
+
+</td>
+<td valign="top" width="54%">
+
+```
+Abdulla Ahmed
+──────────────────────────────────────
+Role       Full-Stack Developer & UX/UI Designer
+Base       Bahrain 🇧🇭
+Studying   BSc ICT Programming — Bahrain Polytechnic (2023–2027)
+           Full Stack Diploma — Reboot Coding Institute (2024–2026)
+
+Email      abdullamohd.ahmed@gmail.com
+LinkedIn   linkedin.com/in/abdulla-mohammed-shams
+GitHub     github.com/AbdullaMshams
+──────────────────────────────────────
+Stack      Go · JavaScript · C# · ASP.NET Core · React
+Focus      Real-time systems · AI-integrated apps · Clean UI
+Currently  Shipping Taalam, CTRL+ESC & Bomberman
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-abdullamohd.ahmed%40gmail.com-58A6FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:abdullamohd.ahmed@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdulla%20Ahmed-58A6FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://linkedin.com/in/abdulla-mohammed-shams)
+[![GitHub](https://img.shields.io/badge/GitHub-AbdullaMshams-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/AbdullaMshams)
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🧰 Tech Stack
+
+<img src="https://skillicons.dev/icons?i=go,js,cs,dotnet,react,mysql,sqlite,azure,docker,linux,git,github,graphql,figma,ps,ai,unity,java&theme=dark" />
+
+</div>
 
 <br>
 
@@ -57,7 +131,7 @@ Selected UI/UX projects designed in Figma. Full breakdown and more screens avail
 <br>
 <sub>Figma, Go, JavaScript · Reboot01 · Jul – Aug 2025</sub>
 <br><br>
-Designed the UI in Figma before building it as a real-time single-page forum in Go and JavaScript, with WebSocket-based private messaging and live presence.
+Built a real-time single-page forum from scratch in Go and JavaScript, with WebSocket-based private messaging, live online/offline presence, and throttled message pagination — designed in Figma first.
 
 <img src="./assets/design-real-time-forum.png" width="100%">
 
@@ -102,18 +176,66 @@ Designed a multi-page landing site (About, Speakers, Agenda, Tickets) for a fict
 
 <br>
 
-## 🛠 What I'm building
+## 🚀 Projects
 
-- **Bomberman** — 2–4 player multiplayer browser game built on a custom JavaScript framework (no canvas/WebGL), with real-time sync and chat over WebSockets, plus an n8n pipeline that generates each player's character sprite from a selfie using OpenAI's image API.
-- **CTRL+ESC** — 3D Unity escape room game with an AI-powered terminal puzzle, a persuadable NPC wired to OpenAI's chat completions API, prompt-engineered for a specific behavioral outcome.
-- **Taalam** — Training & certification management platform, authentication and role-based authorization across a 3-app ASP.NET Core 9 setup, deployed to Azure App Service.
+<table>
+<tr><th align="left">Project</th><th align="left">Stack</th><th align="left">Highlights</th></tr>
+<tr>
+<td valign="top"><b>Taalam</b><br><sub>Feb – Jun 2026</sub></td>
+<td valign="top">ASP.NET Core · EF Core · JWT · Azure · SQL Server</td>
+<td valign="top">Training &amp; certification platform. Auth &amp; role-based authorization across a 3-app ASP.NET Core 9 setup (cookie auth in MVC, JWT bearer in the API); built a decoupled reporting app consuming the API end-to-end via <code>HttpClient</code>, deployed to Azure App Service.</td>
+</tr>
+<tr>
+<td valign="top"><b>CTRL+ESC</b><br><sub>Feb – Jun 2026</sub></td>
+<td valign="top">Unity · C# · OpenAI API</td>
+<td valign="top">3D escape-room game. Led a 5-person Scrum team; built an AI-powered terminal puzzle with a persuadable NPC wired to OpenAI's chat completions API, prompt-engineered for a specific outcome and proxied through a Cloudflare Worker to keep the key off the client.</td>
+</tr>
+<tr>
+<td valign="top"><b>Bomberman</b><br><sub>Mar – Jun 2026</sub></td>
+<td valign="top">JavaScript (custom framework) · WebSockets · n8n · OpenAI API</td>
+<td valign="top">2–4 player multiplayer browser game with no canvas/WebGL, rendered via <code>requestAnimationFrame</code> at a stable 60fps. Extended with an n8n pipeline that generates each player's pixel-art sprite from a selfie using OpenAI's image API, with background removal and cloud storage via remove.bg and Cloudinary.</td>
+</tr>
+<tr>
+<td valign="top"><b>Social Network Platform</b><br><sub>Nov 2025 – Jan 2026</sub></td>
+<td valign="top">Go · React · SQLite · Docker · WebSockets</td>
+<td valign="top">Facebook-style platform with groups, real-time chat, and notifications. Split across 2 Docker containers, secured with session-based auth and bcrypt password hashing.</td>
+</tr>
+<tr>
+<td valign="top"><b>Custom JS Framework &amp; TodoMVC</b><br><sub>Mar – Apr 2026</sub></td>
+<td valign="top">JavaScript · HTML · CSS</td>
+<td valign="top">A JavaScript framework built from scratch — DOM abstraction, routing, state management, and custom events — with full developer docs.</td>
+</tr>
+<tr>
+<td valign="top"><b>Admin Dashboard</b><br><sub>Oct – Dec 2025</sub></td>
+<td valign="top">Figma · Swift · Storyboard</td>
+<td valign="top">Designed a 6-screen admin dashboard in Figma (user management, verification, moderation) and implemented it natively in Swift/Storyboard.</td>
+</tr>
+</table>
+
+<br>
+
+## 🏆 Highlights
+
+- 🚀 **Galactic Problem Solver** — NASA Space Apps Challenge, 2024 · built a climate-data visualization tool during a global hackathon.
+- 🧑‍🤝‍🧑 Led small Scrum teams (up to 5 people) from concept to shipped product under tight deadlines.
+
+<br>
+
+<div align="center">
+
+### 📊 GitHub Stats
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AbdullaMshams&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+<img height="165" src="https://streak-stats.demolab.com?user=AbdullaMshams&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F2B400&currStreakLabel=58A6FF" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullaMshams&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
+
+</div>
 
 <br>
 
 <div align="center">
 <sub>Bachelor of ICT Programming, Bahrain Polytechnic University (2023–2027) · Full Stack Development Diploma, Reboot Coding Institute (2024–2026)</sub>
+<br><br>
+<img src="https://komarev.com/ghpvc/?username=AbdullaMshams&color=58A6FF&style=flat-square&label=Profile+Views" />
 </div>
-
-<br>
-
-<sub>*Setup note (remove after done): to activate the animated snake above, add the included `snake.yml` file to `.github/workflows/` in this repo, then run the workflow once from the Actions tab. It updates automatically once a day after that.*</sub>
