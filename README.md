@@ -225,7 +225,7 @@ Designed a multi-page landing site (About, Speakers, Agenda, Tickets) for a fict
 
 ### 📊 GitHub Stats
 
-<img height="165" src="https://streak-stats.demolab.com?user=AbdullaMshams&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F2B400&currStreakLabel=58A6FF" />
+<img height="165" src="https://streak-stats.demolab.com?user=AbdullaMshams&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F2B400&currStreakLabel=58A6FF&disable_animations=true" />
 
 </div>
 
