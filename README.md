@@ -24,43 +24,9 @@
 
 <br>
 
-<table>
-<tr>
-
-<td valign="top" width="54%">
-
-```
-abdulla@github
-──────────────────────────────────────────────────────────
-OS: ................................................ macOS
-Uptime: ........... 4 years, 10 months (since GitHub join)
-Host: ..................... Bahrain Polytechnic University
-Kernel: ............ Full-Stack Developer & UX/UI Designer
-IDE: .................................. Visual Studio Code
-
-Languages.Programming: .......... Go, JavaScript, C#, Java
-Languages.Computer: .. HTML, CSS, SQL, GraphQL, JSON, YAML
-Languages.Real: .......................... Arabic, English
-
-Hobbies.Dev: ........................... Game Jams (Unity)
-Hobbies.Dev: ................... AI & Automation Tinkering
-
-─ Contact ────────────────────────────────────────────────
-Email: ....................... abdullamohd.ahmed@gmail.com
-LinkedIn: ......... linkedin.com/in/abdulla-mohammed-shams
-GitHub: ......................... github.com/AbdullaMshams
-
-─ GitHub Stats ───────────────────────────────────────────
-Repos: ......................................... 30 public
-Stars: ................................................. 1
-Followers: ............................................. 0
-Top Languages: .............. Go · JavaScript · CSS · Rust
-Member since: ................................... Sep 2021
-```
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/whoami-terminal.png" width="620">
+</div>
 
 <div align="center">
 
@@ -140,6 +106,8 @@ Designed a multi-page landing site (About, Speakers, Agenda, Tickets) for a fict
 <br>
 
 ## 🚀 Projects
+
+A few things I've built recently — a sample, not the full list:
 
 <table>
 <tr><th align="left">Project</th><th align="left">Stack</th><th align="left">Highlights</th></tr>
