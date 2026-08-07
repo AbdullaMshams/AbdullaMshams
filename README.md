@@ -154,9 +154,15 @@ A few things I've built recently — a sample, not the full list:
 
 <div align="center">
 
-### 📊 GitHub Stats
+### 📊 Live GitHub Stats
+
+<sub>Pulled fresh from the GitHub API on every page load — not a snapshot.</sub>
+
+<br><br>
 
 <img height="165" src="https://streak-stats.demolab.com?user=AbdullaMshams&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=F2B400&currStreakLabel=58A6FF&disable_animations=true" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=AbdullaMshams&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3&icon_color=F2B400&ring_color=58A6FF&include_all_commits=true&count_private=false" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbdullaMshams&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3&layout=compact&langs_count=8" />
 
 </div>
 
