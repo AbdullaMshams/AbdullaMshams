@@ -112,6 +112,12 @@ Designed and built the native iOS admin dashboard for Dubrah, a services marketp
 
 <img src="./assets/design-dubrah.png" width="100%">
 
+<details>
+<summary>View full project board (full app flow, not just the dashboard)</summary>
+<br>
+<img src="./assets/design-dubrah-full-board.png" width="100%">
+</details>
+
 </td>
 <td width="50%">
 
