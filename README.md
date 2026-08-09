@@ -139,7 +139,7 @@ A few things I've built recently — a sample, not the full list:
 <td valign="top">Training &amp; certification platform. Auth &amp; role-based authorization across a 3-app ASP.NET Core 9 setup (cookie auth in MVC, JWT bearer in the API); built a decoupled reporting app consuming the API end-to-end via <code>HttpClient</code>, deployed to Azure App Service.</td>
 </tr>
 <tr>
-<td valign="top"><b>CTRL+ESC</b><br><sub>Feb – Jun 2026</sub></td>
+<td valign="top"><b><a href="https://github.com/AbdullaMshams/CTRL-ESC">CTRL+ESC</a></b><br><sub>Feb – Jun 2026</sub></td>
 <td valign="top">Unity · C# · OpenAI API</td>
 <td valign="top">3D escape-room game. Led a 5-person Scrum team; built an AI-powered terminal puzzle with a persuadable NPC wired to OpenAI's chat completions API, prompt-engineered for a specific outcome and proxied through a Cloudflare Worker to keep the key off the client.</td>
 </tr>
@@ -149,12 +149,12 @@ A few things I've built recently — a sample, not the full list:
 <td valign="top">2–4 player multiplayer browser game with no canvas/WebGL, rendered via <code>requestAnimationFrame</code> at a stable 60fps. Extended with an n8n pipeline that generates each player's pixel-art sprite from a selfie using OpenAI's image API, with background removal and cloud storage via remove.bg and Cloudinary.</td>
 </tr>
 <tr>
-<td valign="top"><b>Social Network Platform</b><br><sub>Nov 2025 – Jan 2026</sub></td>
+<td valign="top"><b><a href="https://github.com/AbdullaMshams/husaiali-social-network">Social Network Platform</a></b><br><sub>Nov 2025 – Jan 2026</sub></td>
 <td valign="top">Go · React · SQLite · Docker · WebSockets</td>
 <td valign="top">Facebook-style platform with groups, real-time chat, and notifications. Split across 2 Docker containers, secured with session-based auth and bcrypt password hashing.</td>
 </tr>
 <tr>
-<td valign="top"><b>Custom JS Framework &amp; TodoMVC</b><br><sub>Mar – Apr 2026</sub></td>
+<td valign="top"><b><a href="https://github.com/AbdullaMshams/mini-framework">Custom JS Framework &amp; TodoMVC</a></b><br><sub>Mar – Apr 2026</sub></td>
 <td valign="top">JavaScript · HTML · CSS</td>
 <td valign="top">A JavaScript framework built from scratch — DOM abstraction, routing, state management, and custom events — with full developer docs.</td>
 </tr>
