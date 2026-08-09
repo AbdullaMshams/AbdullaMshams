@@ -101,6 +101,22 @@ Designed a multi-page landing site (About, Speakers, Agenda, Tickets) for a fict
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**Dubrah — Admin Dashboard**
+<br>
+<sub>Swift · University Group Project</sub>
+<br><br>
+Designed and built the native iOS admin dashboard for Dubrah, a services marketplace app — managing users, verification requests (with document review and approve/reject), service reports, and platform analytics.
+
+<img src="./assets/design-dubrah.png" width="100%">
+
+</td>
+<td width="50%">
+
+</td>
+</tr>
 </table>
 
 <br>
