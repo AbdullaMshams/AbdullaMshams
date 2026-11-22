@@ -236,12 +236,12 @@ def card(name, title, meta, chips, t, tag=None):
 
 # ------------------------------------------------------------------ stack
 STACK = [
-    ("LANGUAGES", ["Go", "JavaScript", "C#", "Java", "Swift", "SQL"]),
-    ("FRAMEWORKS", ["React", "ASP.NET Core", "Entity Framework Core", "Unity"]),
+    ("LANGUAGES", ["Go", "JavaScript", "Python", "C#", "Java", "Swift", "SQL"]),
+    ("FRAMEWORKS", ["React", "FastAPI", "ASP.NET Core", "EF Core", "Tailwind CSS"]),
     ("CLOUD AND DATA", ["AWS CDK", "Lambda", "API Gateway", "DynamoDB", "S3", "Cognito",
-                        "Azure", "SQL Server", "MySQL", "SQLite"]),
-    ("TOOLING", ["Docker", "Linux", "Git", "GitHub", "GraphQL", "n8n", "Cloudflare Workers"]),
-    ("DESIGN", ["Figma", "Photoshop", "Illustrator"]),
+                        "Azure", "PostgreSQL", "SQL Server", "MySQL", "SQLite"]),
+    ("TOOLING", ["Git", "GitHub Actions", "Docker", "Linux", "Postman", "Vitest", "OpenAI API", "n8n"]),
+    ("DESIGN", ["Figma", "Photoshop", "Illustrator", "Design systems"]),
 ]
 
 

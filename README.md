@@ -117,7 +117,7 @@ Team training and certification platform on ASP.NET Core 9. I owned auth and rol
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img src="./assets/stack-light.svg" alt="Languages: Go, JavaScript, C#, Java, Swift, SQL. Frameworks: React, ASP.NET Core, Entity Framework Core, Unity. Cloud and data: AWS CDK, Lambda, API Gateway, DynamoDB, S3, Cognito, Azure, SQL Server, MySQL, SQLite. Tooling: Docker, Linux, Git, GitHub, GraphQL, n8n, Cloudflare Workers. Design: Figma, Photoshop, Illustrator." width="100%">
+  <img src="./assets/stack-light.svg" alt="Languages: Go, JavaScript, Python, C#, Java, Swift, SQL. Frameworks: React, FastAPI, ASP.NET Core, EF Core, Tailwind CSS. Cloud and data: AWS CDK, Lambda, API Gateway, DynamoDB, S3, Cognito, Azure, PostgreSQL, SQL Server, MySQL, SQLite. Tooling: Git, GitHub Actions, Docker, Linux, Postman, Vitest, OpenAI API, n8n. Design: Figma, Photoshop, Illustrator, design systems." width="100%">
 </picture>
 
 <picture>
