@@ -56,7 +56,7 @@ class Face:
     def shape(self, text, tracking=0.0, kern=True):
         buf = hb.Buffer()
         buf.add_str(text)
-        buf.guess_segment_properties()
+        buf.guess_segment_properties()  # picks rtl / Arab for Arabic text
         hb.shape(self.hbfont, buf, {"kern": kern, "liga": False})
         out, x = [], 0.0
         for info, pos in zip(buf.glyph_infos, buf.glyph_positions):
@@ -128,11 +128,11 @@ class Svg:
     def line(self, x1, y1, x2, y2, stroke, sw=1):
         self.add(f'<path d="M{fmt(x1)} {fmt(y1)}L{fmt(x2)} {fmt(y2)}" stroke="{stroke}" stroke-width="{sw}" fill="none"/>')
 
-    def stripes(self, pid):
+    def stripes(self, pid, k=1.0):
         c = THEMES[self.t]
         self.defs.append(
             f'<pattern id="{pid}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
-            f'<rect width="6" height="14" fill="{c["accent"]}" fill-opacity="{c["tint"]}"/></pattern>')
+            f'<rect width="6" height="14" fill="{c["accent"]}" fill-opacity="{c["tint"] * k}"/></pattern>')
 
     def dots(self, pid, step=24):
         c = THEMES[self.t]
@@ -162,7 +162,7 @@ def hero(t):
     W, H, M = 1280, 440, 72
     s = Svg(W, H, t, "hero")
     s.dots("dots")
-    s.stripes("st")
+    s.stripes("st", 0.5)
     s.rect(0, 0, W, H, c["bg"])
     s.rect(0, 0, W, H, "url(#dots)")
     s.crop_marks(24, 24, W - 24, H - 24, 18, c["muted"])
@@ -188,6 +188,12 @@ def hero(t):
     px, py, pw, ph = 984, 68, 224, 304
     s.rect(px, py, pw, ph, c["surface"])
     s.rect(px, py, pw, ph, "url(#st)")
+    # Arabic name, outlined like the Latin one (shaped right to left, joined)
+    asz = 50
+    aw = A800.width("عبدالله", asz)
+    assert aw < pw - 40, aw
+    s.text(A800, "عبدالله", asz, px + pw / 2, py + ph / 2 + A800.cap * asz / 2, stroke=c["text"], sw=2.5,
+           anchor="middle", kern=True)
     s.rect(px + .5, py + .5, pw - 1, ph - 1, "none", c["line"])
     s.crop_marks(px - 12, py - 12, px + pw + 12, py + ph + 12, 12, c["accent"], 1.5)
     s.text(M500, "26.22 N / 50.59 E", 13, px + pw, py + ph + 44, c["muted"], tracking=0.06, anchor="end")
@@ -219,17 +225,17 @@ def card(name, title, meta, chips, t, tag=None):
     s.line(PW + .5, 0, PW + .5, H, c["line"])
     M500, A700 = mono(500), alex(700)
     x0 = PW + 40
-    s.text(M500, meta, 13, x0, 44, c["accent"], tracking=0.08)
+    s.text(M500, meta, 15, x0, 44, c["accent"], tracking=0.08)
     if tag:
-        tw = M500.width(tag, 12, 0.08)
-        s.text(M500, tag, 12, W - 32, 44, c["muted"], tracking=0.08, anchor="end")
+        tw = M500.width(tag, 14, 0.08)
+        s.text(M500, tag, 14, W - 32, 44, c["muted"], tracking=0.08, anchor="end")
         s.add(f'<circle cx="{fmt(W - 32 - tw - 14)}" cy="39.5" r="3.5" fill="{c["accent"]}"/>')
     s.text(A700, title, 34, x0, 92, c["text"], tracking=-0.005)
     x = x0
     for ch in chips:
-        cw = M500.width(ch, 12) + 24
-        s.rect(x + .5, 108.5, cw, 26, "none", c["line"])
-        s.text(M500, ch, 12, x + 12, 126, c["muted"])
+        cw = M500.width(ch, 15) + 28
+        s.rect(x + .5, 106.5, cw, 30, "none", c["line"])
+        s.text(M500, ch, 15, x + 14, 126, c["muted"])
         x += cw + 8
     return s.save()
 
@@ -247,9 +253,9 @@ STACK = [
 
 def stack(t):
     c = THEMES[t]
-    W, LX, RX, LH = 840, 0, 230, 26
+    W, LX, RX, LH = 840, 0, 170, 30
     M500 = mono(500)
-    size, gap = 15, 26
+    size, gap = 19, 22
     # layout first to know the height
     rows, y = [], 0
     for label, items in STACK:
@@ -267,7 +273,7 @@ def stack(t):
     s = Svg(W, H, t, "stack")
     for label, lines, y0 in rows:
         s.line(0, y0 + .5, W, y0 + .5, c["line"])
-        s.text(M500, label, 13, LX, y0 + 38, c["accent"], tracking=0.08)
+        s.text(M500, label, 15, LX, y0 + 38, c["accent"], tracking=0.08)
         for li, ln in enumerate(lines):
             by = y0 + 38 + li * LH
             for k, (it, x, w) in enumerate(ln):
@@ -313,7 +319,7 @@ def paste_framed(img, d, im, x, y, w, c):
 
 def showroom_png(t):
     c = THEMES[t]
-    W, M = 1360, 60
+    W, M = 1680, 80
     shot = Image.open(SRC / "showroom-home-light.png").convert("RGB").crop((0, 0, 1372, 800))  # no scrollbar
     inner = W - 2 * M
     h = round(shot.height * inner / shot.width)
@@ -321,7 +327,7 @@ def showroom_png(t):
     img = Image.new("RGB", (W, H), hex2rgb(c["bg"]))
     d = ImageDraw.Draw(img)
     paste_framed(img, d, shot, M, M, inner, c)
-    marks(d, (M - 22, M - 22, M + inner + 22, M + h + 22), hex2rgb(c["accent"]))
+    marks(d, (M - 24, M - 24, M + inner + 24, M + h + 24), hex2rgb(c["accent"]))
     return save_png(img, OUT / f"shot-showroom-{t}.png", c)
 
 
@@ -329,7 +335,7 @@ def guidely_png(t):
     c = THEMES[t]
     W, M, GAP = 1680, 80, 40
     home = Image.open(SRC / "guidely-home.png").convert("RGB").crop((371, 0, 2860, 1556))  # stops above the live stats line
-    ans = Image.open(SRC / "guidely-answer.png").convert("RGB").crop((450, 265, 2780, 1562))
+    ans = Image.open(SRC / "guidely-answer.png").convert("RGB").crop((590, 1128, 1830, 1558))  # second Q&A only
     a1, a2 = home.width / home.height, ans.width / ans.height
     inner = W - 2 * M - GAP
     H = round(inner / (a1 + a2))
@@ -405,11 +411,11 @@ def main():
         made.append(hero(t))
         for idx, title in (("01", "Now"), ("02", "Selected work"), ("03", "UI/UX design"), ("04", "Stack")):
             made.append(section(idx, title, t))
-        made.append(card("aws", "AMAN Investigation Copilot", "AWS CIC  ·  SEP 2026 TO PRESENT  ·  TEAM OF 5",
+        made.append(card("aws", "AMAN Investigation Copilot", "AWS CIC  ·  SEP 2026 TO PRESENT  ·  TEAM OF FIVE",
                          ["CDK", "Lambda", "API Gateway", "DynamoDB", "S3", "Cognito"], t, tag="CURRENT"))
-        made.append(card("showroom", "Reboot01 Student Showroom", "REBOOT01  ·  TEAM OF FOUR",
+        made.append(card("showroom", "Reboot01 Student Showroom", "REBOOT01  ·  JUL TO OCT 2026  ·  TEAM OF FOUR",
                          ["React", "Gitea sign-in", "CI/CD", "Auto-rollback"], t, tag="LIVE"))
-        made.append(card("guidely", "Guidely", "REBOOT01  ·  SOLO PROJECT",
+        made.append(card("guidely", "Guidely", "REBOOT01  ·  SEP TO OCT 2026  ·  SOLO PROJECT",
                          ["RAG", "Cited answers", "Retrieval eval"], t))
         made.append(card("taalam", "Taalam", "FEB TO JUN 2026  ·  TEAM PROJECT",
                          ["ASP.NET Core 9", "JWT", "Role-based access", "Azure"], t))

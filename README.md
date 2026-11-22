@@ -38,7 +38,7 @@ Arabic-first AML screening tool for a financial compliance client, mentored by A
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-showroom-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-showroom-light.svg">
-  <img src="./assets/card-showroom-light.svg" alt="Reboot01 Student Showroom. Reboot01, team of four, live. Stack: React, Gitea sign-in, CI/CD, auto-rollback." width="100%">
+  <img src="./assets/card-showroom-light.svg" alt="Reboot01 Student Showroom. Reboot01, July to October 2026, team of four, live. Stack: React, Gitea sign-in, CI/CD, auto-rollback." width="100%">
 </picture>
 </a>
 
@@ -53,12 +53,11 @@ Reboot01's official platform showing student work to prospective students and hi
 </a>
 
 <br>
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-guidely-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-guidely-light.svg">
-  <img src="./assets/card-guidely-light.svg" alt="Guidely. Reboot01, solo project. Retrieval-augmented generation with cited answers and a retrieval evaluation." width="100%">
+  <img src="./assets/card-guidely-light.svg" alt="Guidely. Reboot01, September to October 2026, solo project. Retrieval-augmented generation with cited answers and a retrieval evaluation." width="100%">
 </picture>
 
 Solo RAG assistant that answers from company documents with cited sources. 100% top-1 retrieval on a 20-question set across 3 runs, median response 1.0 to 1.3 s.
@@ -70,7 +69,6 @@ Solo RAG assistant that answers from company documents with cited sources. 100% 
 </picture>
 
 <br>
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-taalam-dark.svg">
@@ -78,9 +76,8 @@ Solo RAG assistant that answers from company documents with cited sources. 100% 
   <img src="./assets/card-taalam-light.svg" alt="Taalam. February to June 2026, team project. Stack: ASP.NET Core 9, JWT, role-based access, Azure." width="100%">
 </picture>
 
-Team training and certification platform on ASP.NET Core 9. I owned auth and role-based access (Admin, Trainer, Trainee) and the reporting app, deployed to Azure.
+Training and certification platform, built as a team on ASP.NET Core 9. I owned auth and role-based access (Admin, Trainer, Trainee) and the reporting app, deployed to Azure.
 
-<br>
 <br>
 
 **Also built**
@@ -134,12 +131,12 @@ Team training and certification platform on ASP.NET Core 9. I owned auth and rol
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <img src="./assets/footer-light.svg" alt="abdulla@github:~$ exit" width="100%">
+  <img src="./assets/footer-light.svg" alt="End of profile" width="100%">
 </picture>
 
 <p align="center">
   <sub>Bachelor of ICT (Programming), Bahrain Polytechnic, 2023 to expected 2027<br>
-  Full Stack Development Diploma, Reboot Coding Institute, 2024 to expected 2027<br>
+  Full-Stack Development Diploma, Reboot01 (Reboot Coding Institute), 2024 to expected 2027<br>
   NASA Space Apps Challenge 2024, Galactic Problem Solver<br>
   <a href="mailto:abdullamohd.ahmed@gmail.com">abdullamohd.ahmed@gmail.com</a></sub>
 </p>
