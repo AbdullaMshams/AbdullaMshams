@@ -159,44 +159,30 @@ class Svg:
 # ------------------------------------------------------------------- hero
 def hero(t):
     c = THEMES[t]
-    W, H, M = 1280, 440, 72
+    W, H, M = 1280, 540, 72
     s = Svg(W, H, t, "hero")
     s.dots("dots")
-    s.stripes("st", 0.5)
     s.rect(0, 0, W, H, c["bg"])
     s.rect(0, 0, W, H, "url(#dots)")
     s.crop_marks(24, 24, W - 24, H - 24, 18, c["muted"])
 
     A800, A500, M500 = alex(800), alex(500), mono(500)
-    s.text(M500, "// MANAMA, BAHRAIN", 16, M, 62, c["accent"], tracking=0.08)
+    s.text(M500, "// MANAMA, BAHRAIN", 16, M, 74, c["accent"], tracking=0.08)
 
     size = 144
     cap = A800.cap * size
-    b1, b2 = 198, 198 + 120
-    s.text(A800, "ABDULLA", size, M, b1, stroke=c["text"], sw=2.5, tracking=0.035, kern=False)
-    w2 = s.text(A800, "AHMED", size, M, b2, stroke=c["text"], sw=2.5, tracking=0.035, kern=False)
+    b1, b2 = 236, 236 + 150
+    s.text(A800, "ABDULLA", size, M, b1, stroke=c["text"], sw=2.5, tracking=0.06, kern=False)
+    w2 = s.text(A800, "AHMED", size, M, b2, stroke=c["text"], sw=2.5, tracking=0.06, kern=False)
     # blinking cursor, the only moving element
-    cx = M + w2 + 26
+    cx = M + w2 + 30
     s.add(f'<rect x="{fmt(cx)}" y="{fmt(b2 - cap)}" width="34" height="{fmt(cap)}" fill="{c["accent"]}">'
           f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>')
 
-    s.text(A500, "Full-stack developer and UI/UX designer", 30, M, 372, c["text"])
-    s.line(M, 390.5, 900, 390.5, c["line"])
-    s.text(M500, "NOW: CLOUD INNOVATION CENTER INTERN, AWS", 13, M, 416, c["muted"], tracking=0.06)
-
-    # stripe panel (right), framed
-    px, py, pw, ph = 984, 68, 224, 304
-    s.rect(px, py, pw, ph, c["surface"])
-    s.rect(px, py, pw, ph, "url(#st)")
-    # Arabic name, outlined like the Latin one (shaped right to left, joined)
-    asz = 50
-    aw = A800.width("عبدالله", asz)
-    assert aw < pw - 40, aw
-    s.text(A800, "عبدالله", asz, px + pw / 2, py + ph / 2 + A800.cap * asz / 2, stroke=c["text"], sw=2.5,
-           anchor="middle", kern=True)
-    s.rect(px + .5, py + .5, pw - 1, ph - 1, "none", c["line"])
-    s.crop_marks(px - 12, py - 12, px + pw + 12, py + ph + 12, 12, c["accent"], 1.5)
-    s.text(M500, "26.22 N / 50.59 E", 13, px + pw, py + ph + 44, c["muted"], tracking=0.06, anchor="end")
+    s.text(A500, "Full-stack developer and UI/UX designer", 30, M, 452, c["text"])
+    s.line(M, 478.5, W - M, 478.5, c["line"])
+    s.text(M500, "NOW: CLOUD INNOVATION CENTER INTERN, AWS", 13, M, 506, c["muted"], tracking=0.06)
+    s.text(M500, "26.22 N / 50.59 E", 13, W - M, 506, c["muted"], tracking=0.06, anchor="end")
     return s.save()
 
 
@@ -335,7 +321,7 @@ def guidely_png(t):
     c = THEMES[t]
     W, M, GAP = 1680, 80, 40
     home = Image.open(SRC / "guidely-home.png").convert("RGB").crop((371, 0, 2860, 1556))  # stops above the live stats line
-    ans = Image.open(SRC / "guidely-answer.png").convert("RGB").crop((590, 1128, 1830, 1558))  # second Q&A only
+    ans = Image.open(SRC / "guidely-answer.png").convert("RGB").crop((450, 265, 2780, 1562))  # answer with citations and the evidence panel
     a1, a2 = home.width / home.height, ans.width / ans.height
     inner = W - 2 * M - GAP
     H = round(inner / (a1 + a2))

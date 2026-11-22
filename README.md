@@ -4,6 +4,9 @@
   <img src="./assets/hero-light.svg" alt="Abdulla Ahmed. Full-stack developer and UI/UX designer. Manama, Bahrain. Currently a Cloud Innovation Center intern at AWS." width="100%">
 </picture>
 
+<br>
+
+
 <p align="center">
   I design interfaces and build the systems behind them. Currently a Cloud Innovation Center intern at AWS, building an Arabic-first compliance tool. Studying ICT (Programming) at Bahrain Polytechnic and full-stack development at Reboot01.
 </p>
@@ -65,8 +68,10 @@ Solo RAG assistant that answers from company documents with cited sources. 100% 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/shot-guidely-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/shot-guidely-light.png">
-  <img src="./assets/shot-guidely-light.png" alt="Guidely screenshots: the home screen 'Ask your documents. Get the sources.' with suggested questions, and an answer with numbered citations linked to the evidence passages." width="100%">
+  <img src="./assets/shot-guidely-light.png" alt="Guidely screenshots: the home screen 'Ask your documents. Get the sources.' and an answer with numbered citations linked to the evidence passages they came from." width="100%">
 </picture>
+
+<sub>The first question was typed casually on purpose: Guidely rewrites informal or misspelt questions before searching.</sub>
 
 <br>
 
