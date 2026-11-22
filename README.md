@@ -42,6 +42,8 @@ Arabic-first AML screening tool for a financial compliance client, mentored by A
 </picture>
 </a>
 
+Reboot01's official platform showing student work to prospective students and hiring partners. I designed every page and built the React frontend, Gitea sign-in and a tested, auto-rollback CI/CD pipeline, with a team of four. [showroom.reboot01.com](https://showroom.reboot01.com)
+
 <a href="https://showroom.reboot01.com">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/shot-showroom-dark.png">
@@ -50,7 +52,8 @@ Arabic-first AML screening tool for a financial compliance client, mentored by A
 </picture>
 </a>
 
-Reboot01's official platform showing student work to prospective students and hiring partners. I designed every page and built the React frontend, Gitea sign-in and a tested, auto-rollback CI/CD pipeline, with a team of four. [showroom.reboot01.com](https://showroom.reboot01.com)
+<br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-guidely-dark.svg">
@@ -61,12 +64,24 @@ Reboot01's official platform showing student work to prospective students and hi
 Solo RAG assistant that answers from company documents with cited sources. 100% top-1 retrieval on a 20-question set across 3 runs, median response 1.0 to 1.3 s.
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/shot-guidely-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/shot-guidely-light.png">
+  <img src="./assets/shot-guidely-light.png" alt="Guidely screenshots: the home screen 'Ask your documents. Get the sources.' with suggested questions, and an answer with numbered citations linked to the evidence passages." width="100%">
+</picture>
+
+<br>
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-taalam-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-taalam-light.svg">
   <img src="./assets/card-taalam-light.svg" alt="Taalam. February to June 2026, team project. Stack: ASP.NET Core 9, JWT, role-based access, Azure." width="100%">
 </picture>
 
 Team training and certification platform on ASP.NET Core 9. I owned auth and role-based access (Admin, Trainer, Trainee) and the reporting app, deployed to Azure.
+
+<br>
+<br>
 
 **Also built**
 
@@ -78,7 +93,7 @@ Team training and certification platform on ASP.NET Core 9. I owned auth and rol
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/section-03-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/section-03-light.svg">
-  <img src="./assets/section-03-light.svg" alt="Design" width="100%">
+  <img src="./assets/section-03-light.svg" alt="UI/UX design" width="100%">
 </picture>
 
 <picture>
@@ -93,10 +108,6 @@ Team training and certification platform on ASP.NET Core 9. I owned auth and rol
 <summary>More design work</summary>
 
 <br>
-
-**Bahrain Trust Foundation**: full UI for a three-role charity platform (volunteer, donor, admin) covering task management, project browsing and a donation flow. Figma, university group project, January to May 2024.
-
-<img src="./assets/design-btf.png" alt="Bahrain Trust Foundation Figma screens for the volunteer, donor and admin roles." width="100%">
 
 **mgzn.**: a multi-page landing site (About, Speakers, Agenda, Tickets) for a fictional tech conference. Figma, personal practice project, November 2023.
 

@@ -325,6 +325,24 @@ def showroom_png(t):
     return save_png(img, OUT / f"shot-showroom-{t}.png", c)
 
 
+def guidely_png(t):
+    c = THEMES[t]
+    W, M, GAP = 1680, 80, 40
+    home = Image.open(SRC / "guidely-home.png").convert("RGB").crop((371, 0, 2860, 1556))  # stops above the live stats line
+    ans = Image.open(SRC / "guidely-answer.png").convert("RGB").crop((450, 265, 2780, 1562))
+    a1, a2 = home.width / home.height, ans.width / ans.height
+    inner = W - 2 * M - GAP
+    H = round(inner / (a1 + a2))
+    w1 = round(H * a1)
+    w2 = inner - w1
+    img = Image.new("RGB", (W, H + 2 * M), hex2rgb(c["bg"]))
+    d = ImageDraw.Draw(img)
+    paste_framed(img, d, home, M, M, w1, c)
+    paste_framed(img, d, ans, M + w1 + GAP, M, w2, c)
+    marks(d, (M - 24, M - 24, W - M + 24, M + H + 24), hex2rgb(c["accent"]))
+    return save_png(img, OUT / f"shot-guidely-{t}.png", c)
+
+
 def design_png(t):
     c = THEMES[t]
     W, M, GAP = 1680, 80, 40
@@ -385,7 +403,7 @@ def main():
     made = []
     for t in THEMES:
         made.append(hero(t))
-        for idx, title in (("01", "Now"), ("02", "Selected work"), ("03", "Design"), ("04", "Stack")):
+        for idx, title in (("01", "Now"), ("02", "Selected work"), ("03", "UI/UX design"), ("04", "Stack")):
             made.append(section(idx, title, t))
         made.append(card("aws", "AMAN Investigation Copilot", "AWS CIC  ·  SEP 2026 TO PRESENT  ·  TEAM OF 5",
                          ["CDK", "Lambda", "API Gateway", "DynamoDB", "S3", "Cognito"], t, tag="CURRENT"))
@@ -398,6 +416,7 @@ def main():
         made.append(stack(t)[0])
         made.append(footer(t))
         made.append(showroom_png(t))
+        made.append(guidely_png(t))
     # design showcase needs the mgzn source in assets/, so it runs last
     for t in THEMES:
         made.append(design_png(t))
